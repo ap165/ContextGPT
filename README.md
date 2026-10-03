@@ -17,6 +17,7 @@ ContextGPT is an enterprise-grade B2B internal knowledge base AI. This frontend 
 *   **Framework:** React 18 + TypeScript + Vite
 *   **Styling:** Tailwind CSS
 *   **Backend:** FastAPI + MongoDB + Mongo Vector Search
+*   **LLM:** Gemini-3.5-flash-lite  
 
 ## 🚀 Getting Started
 
