@@ -1,7 +1,5 @@
 # ContextGPT (Frontend)
 
-*Note: This project repository was originally initialized as `CryptoAI`, but has been rebranded to ContextGPT.*
-
 ContextGPT is an enterprise-grade B2B internal knowledge base AI. This frontend provides a secure, seamless conversational interface for employees to query company data, technical documentation, and operational context using a customized RAG (Retrieval-Augmented Generation) backend.
 
 ## ✨ Key Features
