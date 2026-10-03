@@ -112,7 +112,7 @@ export const Signup: React.FC = () => {
             <Brain className="w-12 h-12 text-primary mb-4" />
             <h2 className="text-2xl font-bold text-text-primary mb-2">Create Account</h2>
             <p className="text-text-secondary text-center">
-              {step === 1 ? 'Join CryptoAI to access the knowledge base' : 'Enter the verification code sent to your email'}
+              {step === 1 ? 'Join ContextGPT  to access the knowledge base' : 'Enter the verification code sent to your email'}
             </p>
           </div>
 

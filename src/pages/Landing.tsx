@@ -27,7 +27,7 @@ export const Landing: React.FC = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2">
               <Brain className="w-8 h-8 text-primary" />
-              <span className="font-bold text-2xl tracking-tight">CryptoAI</span>
+              <span className="font-bold text-2xl tracking-tight">ContextGPT </span>
             </div>
             <div className="flex items-center gap-4">
               <Link to="/login" className="text-text-secondary hover:text-primary transition-colors font-medium">
@@ -59,7 +59,7 @@ export const Landing: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/signup">
               <Button variant="primary" size="lg" className="rounded-full px-8 py-4 text-lg">
-                Start Using CryptoAI
+                Start Using ContextGPT 
               </Button>
             </Link>
             <Link to="/login">
@@ -152,7 +152,7 @@ export const Landing: React.FC = () => {
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center gap-2 mb-4">
                 <Brain className="w-6 h-6 text-primary" />
-                <span className="font-bold text-xl">CryptoAI</span>
+                <span className="font-bold text-xl">ContextGPT </span>
               </div>
               <p className="text-text-muted max-w-sm">
                 Advanced artificial intelligence for internal knowledge discovery, policy research, and personalized assistance.
@@ -180,7 +180,7 @@ export const Landing: React.FC = () => {
           
           <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between">
             <p className="text-text-muted text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} CryptoAI. All rights reserved.
+              &copy; {new Date().getFullYear()} ContextGPT . All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link to="#" className="text-text-muted hover:text-primary transition-colors text-sm">Privacy Policy</Link>

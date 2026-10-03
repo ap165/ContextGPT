@@ -51,7 +51,7 @@ export const Chat: React.FC = () => {
               <Brain className="w-5 h-5 text-positive" />
               <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 bg-positive border-2 border-surface rounded-full"></span>
             </div>
-            <span className="font-medium text-sm text-text-primary hidden sm:inline-block">CryptoAI Online</span>
+            <span className="font-medium text-sm text-text-primary hidden sm:inline-block">ContextGPT  Online</span>
           </div>
           
           <div className="flex items-center gap-2">

@@ -10,7 +10,7 @@ const apiClient = axios.create({
 
 apiClient.interceptors.request.use(
   (config) => {
-    const token = localStorage.getItem('cryptoai_token');
+    const token = localStorage.getItem('ContextGPT _token');
     if (token && config.headers) {
       config.headers.Authorization = `Bearer ${token}`;
     }
@@ -38,8 +38,8 @@ apiClient.interceptors.response.use(
       
       // We still want the global error handler below to run if it's a 401
       if (error.response.status === 401) {
-        localStorage.removeItem('cryptoai_token');
-        localStorage.removeItem('cryptoai_user');
+        localStorage.removeItem('ContextGPT _token');
+        localStorage.removeItem('ContextGPT _user');
         if (window.location.pathname !== '/login' && window.location.pathname !== '/signup') {
           window.location.href = '/login';
         }
@@ -51,8 +51,8 @@ apiClient.interceptors.response.use(
   },
   (error) => {
     if (error.response && error.response.status === 401) {
-      localStorage.removeItem('cryptoai_token');
-      localStorage.removeItem('cryptoai_user');
+      localStorage.removeItem('ContextGPT _token');
+      localStorage.removeItem('ContextGPT _user');
       if (window.location.pathname !== '/login' && window.location.pathname !== '/signup') {
         window.location.href = '/login';
       }

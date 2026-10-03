@@ -13,7 +13,7 @@ export const TypingIndicator: React.FC = () => {
         </div>
         
         <div className="px-4 py-3 bg-surface border border-border rounded-2xl rounded-tl-md flex items-center gap-3 shadow-sm h-12">
-          <span className="text-sm font-medium text-text-secondary">CryptoAI is thinking</span>
+          <span className="text-sm font-medium text-text-secondary">ContextGPT  is thinking</span>
           <div className="flex items-center gap-1.5 h-full pt-1">
             <span className="w-1.5 h-1.5 bg-primary rounded-full animate-bounce [animation-delay:-0.3s]"></span>
             <span className="w-1.5 h-1.5 bg-primary rounded-full animate-bounce [animation-delay:-0.15s]"></span>

@@ -27,7 +27,7 @@ export const AppLayout: React.FC = () => {
   const getPageTitle = () => {
     if (location.pathname.startsWith('/chat')) return 'AI Chat';
     if (location.pathname.startsWith('/profile')) return 'Profile';
-    return 'CryptoAI';
+    return 'ContextGPT ';
   };
 
   return (

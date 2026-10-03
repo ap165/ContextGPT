@@ -17,7 +17,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ onLogout, onClose }) => {
       <div className="flex items-center justify-between px-4 py-6 border-b border-border flex-shrink-0">
         <div className="flex items-center gap-2">
           <Brain className="w-8 h-8 text-primary" />
-          <span className="text-lg font-bold text-text-primary">CryptoAI</span>
+          <span className="text-lg font-bold text-text-primary">ContextGPT </span>
         </div>
         {onClose && (
           <button 

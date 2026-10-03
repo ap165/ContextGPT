@@ -1,7 +1,7 @@
 import type { User } from '../types/auth';
 
-const TOKEN_KEY = 'cryptoai_token';
-const USER_KEY = 'cryptoai_user';
+const TOKEN_KEY = 'ContextGPT _token';
+const USER_KEY = 'ContextGPT _user';
 
 export const authStorage = {
   getToken: (): string | null => {

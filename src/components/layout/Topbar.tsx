@@ -7,7 +7,7 @@ interface TopbarProps {
   username?: string;
 }
 
-export const Topbar: React.FC<TopbarProps> = ({ onMenuToggle, title = 'CryptoAI', username }) => {
+export const Topbar: React.FC<TopbarProps> = ({ onMenuToggle, title = 'ContextGPT ', username }) => {
   const getInitial = (name?: string) => (name ? name.charAt(0).toUpperCase() : 'U');
 
   return (

@@ -3,12 +3,12 @@ import { authStorage } from './authStorage';
 
 const getSessionsKey = () => {
   const user = authStorage.getUser();
-  return user?.username ? `cryptoai_chat_sessions_${user.username}` : 'cryptoai_chat_sessions';
+  return user?.username ? `ContextGPT _chat_sessions_${user.username}` : 'ContextGPT _chat_sessions';
 };
 
 const getLegacyKey = () => {
   const user = authStorage.getUser();
-  return user?.username ? `cryptoai_chat_memory_${user.username}` : 'cryptoai_chat_memory';
+  return user?.username ? `ContextGPT _chat_memory_${user.username}` : 'ContextGPT _chat_memory';
 };
 
 const MAX_SESSIONS = 20;

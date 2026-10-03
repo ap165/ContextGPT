@@ -21,7 +21,7 @@ export const EmptyChat: React.FC<EmptyChatProps> = ({ onSelectPrompt }) => {
       </div>
       
       <h2 className="text-2xl md:text-3xl font-bold text-text-primary mb-3 text-center">
-        How can CryptoAI help you today?
+        How can ContextGPT  help you today?
       </h2>
       <p className="text-text-secondary text-center mb-10 max-w-md text-sm md:text-base">
         Ask me anything about company policies, procedures, and internal documentation
