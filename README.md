@@ -89,6 +89,3 @@ npm run build
 
 The optimized static files will be generated in the `dist/` directory, ready to be deployed to Vercel, Cloudflare Pages, or AWS S3.
 
-```
-
-```
